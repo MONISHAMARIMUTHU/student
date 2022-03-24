@@ -32,7 +32,7 @@ Create a table "student_register" under the "student_management" database.
 	age Int(10) NOT NULL,
 	gender char(10) NOT NULL,
 	birth DATE NOT NULL,
-	contact Int(15) NOT NULL,
+	contact VARCHAR(15) NOT NULL,
 	email VARCHAR(100) NOT NULL,
 	PRIMARY KEY ( contact )
 );
